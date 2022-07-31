@@ -8,11 +8,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'Reddit Video Maker Bot',
 	tagline: 'Create Reddit Videos with just✨ one command ✨',
-	url: '/',
+	url: 'https://docusaurus-2.netlify.app',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/favicon.ico',
+	favicon: ' ',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
