@@ -14,13 +14,32 @@
 
 .container {
 	width: 100%;
-	max-width: 33rem;
+	max-width: 40rem;
 }
 
 .heading2 {
 	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
+}
+
+.heading3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.heading4 {
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.author {
+	display: flex;
+	flex-direction: row;
+	gap: 11rem;
+	margin-top: 2rem;
 }
 .heroBanner {
 	padding: 4rem 0;
