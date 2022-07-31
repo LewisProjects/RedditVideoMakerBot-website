@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# The Reddit Bot?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+We have all seen those Text To Speech videos on YouTube and TikTok, right? A Minecraft background, screenshots from a random Reddit thread, and TTS. Well, those low-effort videos can be completely automated now! Using this bot, you can produce a high-quality video (perfect for your TikTok and YouTube) in 5 to 10 minutes with almost no effort.
 
-## Getting Started
+![video](samples/videos/askRedditFinished.mp4)
 
-Get started by **creating a new site**.
+(Generated just by code)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Before we start, though, there is an installation script that installs everything from scratch that you can use if you are on MacOS or Linux (I would strongly recommend using it):
 
-### What you'll need
+`bash <(curl -sL https://raw.githubusercontent.com/elebumm/RedditVideoMakerBot/master/install.sh)`
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+All the credit for this bot's development goes to Lewis Menelaws. Get in touch with Lewis and his server filled with a bunch of lovely developers [here](https://discord.gg/5uw4eCQf6Z). Check out the project on Github (and maybe leave a star on it), [by clicking here](https://github.com/elebumm/RedditVideoMakerBot).
 
-## Generate a new site
+This simple documentation will guide you through the installation process of the bot & its required source files and get you running in no time!
 
-Generate a new Docusaurus site using the **classic template**.
+Psst. We need your help! If you feel that documentation is incomplete or want to improve it, click this link. [https://github.com/LukaHietala/reddit-bot-docs](https://github.com/LukaHietala/reddit-bot-docs)
 
-The classic template will automatically be added to your project after you run the command:
+## Developers and maintainers of the bot
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+[Elebumm](https://github.com/elebumm) (`Lewis#6305`) - (Founder)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+[Jason](https://github.com/JasonLovesDoggo) (`JasonLovesDoggo#1904`) - (Maintainer)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+[CallumIO](https://github.com/CallumIO) (`c.#6837`)
 
-## Start your site
+[Verq](https://github.com/CordlessCoder) (`Verq#2338`)
 
-Run the development server:
+[LukaHietala](https://github.com/LukaHietala) (`Pix.#0001`)
 
-```bash
-cd my-website
-npm run start
-```
+[Freebiell](https://github.com/FreebieII) (`Freebie#6429`)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Documentation
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+- [HarryDaDev](https://github.com/ImmaHarry) (`hrvyy#9677`)
+- [LukaHietala](https://github.com/LukaHietala) (`Pix.#0001`)
+- [micziz](https://github.com/micziz)
+- [CordlessCoder](https://github.com/CordlessCoder) (`Verq#2338`)
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+(These aren't by any means exhaustive lists)
