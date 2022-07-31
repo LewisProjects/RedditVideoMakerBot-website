@@ -37,7 +37,7 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+						'https://github.com/LukaHietala/reddit-bot-docs-website/tree/master/',
 				},
 				blog: false,
 				/*blog: {
@@ -67,7 +67,7 @@ const config = {
 						label: 'Tutorial',
 					},
 					{
-						href: 'https://github.com/LukaHietala/RedditVideoMakerBot',
+						href: 'https://github.com/elebumm/RedditVideoMakerBot',
 						label: 'GitHub',
 						position: 'right',
 					},
