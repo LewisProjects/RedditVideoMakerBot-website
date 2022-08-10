@@ -1,3 +1,4 @@
+
 ---
 sidebar_position: 1
 ---
@@ -6,7 +7,11 @@ sidebar_position: 1
 
 We have all seen those Text To Speech videos on YouTube and TikTok, right? A Minecraft background, screenshots from a random Reddit thread, and TTS. Well, those low-effort videos can be completely automated now! Using this bot, you can produce a high-quality video (perfect for your TikTok and YouTube) in 5 to 10 minutes with almost no effort.
 
-![video](samples/videos/askRedditFinished.mp4)
+
+<video height="600px" controls>  
+<source src="https://user-images.githubusercontent.com/65854503/183877050-8cfe9a1e-68d8-4528-b4eb-b0c60c072537.mp4"  type="video/mp4">
+</video>
+
 
 (Generated just by code)
 
