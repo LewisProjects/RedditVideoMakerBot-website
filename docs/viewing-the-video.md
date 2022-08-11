@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # Viewing the video
 
-If you want to watch a video in a clean UI, open the cmd and execute this command: `python main.py` (or `python3 main.py`). It will bring you to a new page in your browser to help you view the videos. If you want to publish them to platforms like TikTok or Youtube Shorts, then in the project folder, there is a new `Results` folder. That's where you can get the final mp4 video.
+If you want to watch a video in a clean UI, open the cmd and execute this command: `python GUI.py` (or `python3 GUI.py`). It will bring you to a new page in your browser to help you view the videos. If you want to publish them to platforms like TikTok or Youtube Shorts, then in the project folder, there is a new `Results` folder. That's where you can get the final mp4 video.
 
 ![wtv](<.gitbook/assets/image (8).png>)
 
