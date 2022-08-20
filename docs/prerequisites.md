@@ -9,7 +9,8 @@ sidebar_position: 2
 
 ## Requirements
 
-- [ ] Python, version 3.9+.
+- [ ] Python, version 3.9+.  (*This Verison of python will work For DEVELOP BRANCH of the bot*)
+- [ ] Python, version 3.10+. (*This version is required for the MASTER BRANCH of the bot*)
 
 ### Python
 
@@ -21,7 +22,29 @@ It returns the following output:
 Python 3.9.0
 ```
 
-You can go to the next step if it's the same or higher.
+Than you are good to go for the next steps as long as your are using the devlop Branch of the bot.
+
+
+
+### If it returns the following output and you are using master
+```shell
+Python 3.9.0
+``` 
+Then you will need to update/upgrade to Python 3.10 or later 
+
+### if it returned 
+
+```shell
+Python 3.10.0
+``` 
+Then you will be fine
+
+
+
+If you do need to update python the here is a short video [Update python](https://www.youtube.com/watch?v=6pKeMH4z1aU)
+###### Shout out to 42technoman for this video 
+
+
 
 If it returns the following output:
 
@@ -30,6 +53,9 @@ python3: command not found
 ```
 
 Then you need to install Python.
+
+
+
 
 #### Installing python on Windows
 
