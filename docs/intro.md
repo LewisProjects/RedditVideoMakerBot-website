@@ -44,6 +44,6 @@ Psst. We need your help! If you feel that documentation is incomplete or want to
 - [LukaHietala](https://github.com/LukaHietala) (`Pix.#0001`)
 - [micziz](https://github.com/micziz)
 - [CordlessCoder](https://github.com/CordlessCoder) (`Verq#2338`)
-- [Simon](https://github.com/StopmotionSimonYT) (`StopmotionSimon_YT#9804`) 
+- [Simon](https://github.com/OpenSourceSimon) (`OpenSourceSimon#9804`) 
 - Phantom (`Blu3#6474`)
 (These aren't by any means exhaustive lists)
