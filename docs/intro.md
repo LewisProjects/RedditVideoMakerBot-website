@@ -22,7 +22,7 @@ All the credit for this bot's development goes to Lewis Menelaws. Get in touch w
 
 This simple documentation will guide you through the installation process of the bot & its required source files and get you running in no time!
 
-Psst. We need your help! If you feel that documentation is incomplete or want to improve it, click this link. [https://github.com/LukaHietala/reddit-bot-docs](https://github.com/LukaHietala/reddit-bot-docs-website)
+Psst. We need your help! If you feel that documentation is incomplete or want to improve it, click this link. [https://github.com/LewisProjects/RedditVideoMakerBot-website](https://github.com/LewisProjects/RedditVideoMakerBot-website)
 
 ## Developers and maintainers of the bot
 
