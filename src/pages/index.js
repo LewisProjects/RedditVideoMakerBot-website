@@ -38,8 +38,7 @@ export default function Home() {
 				<div className={styles.container}>
 					<h2 className={styles.heading2}>What is this?</h2>
 					<p>
-						This is a bot that makes videos from Reddit posts. It is built on
-						the Reddit API and uses the YouTube API to create the videos.
+						The Reddit Video Maker Bot is a bot by Lewis Menelaws. It allows you to create Reddit videos with just one command.
 					</p>
 					<h2 className={styles.heading2}>How does it work?</h2>
 					<p>
@@ -54,7 +53,7 @@ export default function Home() {
 					</p>
 					<h2 className={styles.heading2}>How do I use it?</h2>
 					<p>
-						You can use the bot by going to the{' '}
+						You can learn how to use the bot in {' '}
 						<Link to="/docs/intro">Tutorial</Link>.
 					</p>
 					<h2 className={styles.heading2}>Authors</h2>
