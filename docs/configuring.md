@@ -22,9 +22,13 @@ Head over to the _apps_ page under the _prefs page_: [https://www.reddit.com/pre
 ![reddit](<.gitbook/assets/image (6) (1).png>)
 
 **Name**: you can put in any name, for example: `automated-bot`
+
 **Radio Buttons**: where it shows you the three radio buttons, pick the third one (_script)_.
+
 **Description**: put in anything, it does not matter.
+
 **About URL**: link any webpage like `https://google.com`.
+
 **Redirect URI**: link any webpage like `https://google.com`.
 
 Great, you created the app! Now you need to give the values to the bot.
