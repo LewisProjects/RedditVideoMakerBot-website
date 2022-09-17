@@ -21,10 +21,10 @@ Head over to the _apps_ page under the _prefs page_: [https://www.reddit.com/pre
 
 ![reddit](<.gitbook/assets/image (6) (1).png>)
 
-**Name**: you can put in any name, for example: `automated-bot`\
-**Radio Buttons**: where it shows you the three radio buttons, pick the third one (_script)_.\
-**Description**: put in anything, it does not matter.\
-**About URL**: link any webpage like `https://google.com`.\
+**Name**: you can put in any name, for example: `automated-bot`
+**Radio Buttons**: where it shows you the three radio buttons, pick the third one (_script)_.
+**Description**: put in anything, it does not matter.
+**About URL**: link any webpage like `https://google.com`.
 **Redirect URI**: link any webpage like `https://google.com`.
 
 Great, you created the app! Now you need to give the values to the bot.
@@ -44,6 +44,15 @@ python3 main.py
 It will initialize the setup process.
 
 Fill in the `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` (**AGAIN, DO NOT SHARE THIS WITH ANYONE**), `REDDIT_USERNAME` and `REDDIT_PASSWORD`
+
+## Obtaining TikTok SessionID
+If you want to use the TikTok TTS, you need a TikTok account. The process of obtaining a SessionID can be difficult. 
+
+1. Log in to the [TikTok Web App](https://tiktok.com)
+2. Install the [Cookie Editor extension](https://cookie-editor.cgagnier.ca/) for your browser.
+3. Open the extension and look for "sessionid"
+4. Copy it
+5. Paste it in the config.toml at `tiktok_sessionid`
 
 ## Filling in the rest
 
