@@ -44,7 +44,7 @@ description: >-
   <source src="https://user-images.githubusercontent.com/61630074/178568515-e95ddf4e-48e6-4e9b-b199-43c628fc713c.mp4" type="audio/mpeg"></source>
 </audio>
 
-### AMERICAN VOICES
+### ENGLISH VOICES
 
 * English AU, en\_au\_001 - Female
 <audio controls>
