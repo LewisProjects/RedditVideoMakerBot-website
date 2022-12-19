@@ -67,6 +67,7 @@ export default function Home() {
 							<h4>Maintainer/developer</h4>
 							<ul>
 								<li>Jason</li>
+								<li>Simon</li>
 								<li>Callum Leslie</li>
 								<li>Verq</li>
 								<li>Luka Hietala</li>
