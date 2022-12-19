@@ -30,6 +30,8 @@ Psst. We need your help! If you feel that documentation is incomplete or want to
 
 [Jason](https://github.com/JasonLovesDoggo) (`JasonLovesDoggo#1904`) - (Maintainer)
 
+[Simon](https://github.com/OpenSourceSimon) (`OpenSourceSimon#9804`)
+
 [CallumIO](https://github.com/CallumIO) (`c.#6837`)
 
 [Verq](https://github.com/CordlessCoder) (`Verq#2338`)
