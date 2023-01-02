@@ -54,7 +54,7 @@ If you want to use the TikTok TTS, you need a TikTok account. The process of obt
 
 1. Log in to the [TikTok Web App](https://tiktok.com)
 2. Install the [Cookie Editor extension](https://cookie-editor.cgagnier.ca/) for your browser.
-3. Open the extension and look for "sessionid"
+3. Open the extension and look for `sessionid`
 4. Copy it
 5. Paste it in the config.toml at `tiktok_sessionid`
 
