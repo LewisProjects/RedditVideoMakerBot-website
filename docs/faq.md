@@ -28,7 +28,7 @@ It is, what it is - head to TikTok and log in, then copy the `sessionid` cookie 
 
 ## TikTok Reader Crashing
 
-TikTok TTS has a maximum character limit, ~2000. If you are getting a crash, it is likely that the post is too long. You can change the `voice_choice` option in the `config.toml` file to `streamlabs`.
+TikTok TTS has a maximum character limit, ~300. If you are getting a crash, it is likely that the post is too long. You can change the `voice_choice` option in the `config.toml` file to `streamlabs`.
 
 ## Preview TTS Voice
 
