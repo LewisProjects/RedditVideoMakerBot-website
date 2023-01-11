@@ -42,4 +42,4 @@ By default NSFW is disabled. To enable it, you can change the `allow_nsfw` optio
 
 ## Mainpy Crashing Due To Video Length
 
-This is mostlikely due to a corrupt video - remove the files from `assets/backgrounds`
+This is mostlikely due to a corrupt video, remove the files from `assets/backgrounds`
