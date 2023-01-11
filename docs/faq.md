@@ -16,7 +16,7 @@ The most common occurence is the use of an incorrect Python version, or a missin
 
 ## Easy Way To Edit Config
 
-Run `GUI.py` this opens a web editor in which you can edit the config file. You can also preview the TTS voices.
+Run `python GUI.py` this opens a web editor in which you can edit the config file. You can also preview the TTS voices.
 
 ## Read The Post Not Just The Title
 
