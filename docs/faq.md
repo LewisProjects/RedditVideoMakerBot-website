@@ -40,10 +40,6 @@ By default NSFW is disabled. To enable it, you can change the `allow_nsfw` optio
 
 **NOTE:** This needs to be enable on the Reddit account used to create the app.
 
-## Could Not Concat Numpy.float64
-
-This is due to the `utils/backgrounds.json` ; temporary solution is to edit the third parameter of the video in the array to be a string instead of a float. Proper solution would be to ensure we are typecasting the values in the `video_creation/backgrounds.py` file.
-
 ## Video Length Is Too Long & I Am Too Lazy To Edit It Myself
 
 Seriously, I mean thats what I did but fine fair enough - in `/video_creation/final_video.py` you can cap the input length of the `make_final_video` function.
