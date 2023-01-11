@@ -18,7 +18,7 @@ The most common occurence is the use of an incorrect Python version, or a missin
 
 Run `GUI.py` this opens a web editor in which you can edit the config file. You can also preview the TTS voices.
 
-## Read the post not just the title
+## Read The Post Not Just The Title
 
 The bot by default will only read the title of the post. If you want to read the post as well, you can change the `storymode` option in the `config.toml` file to `true`. This will make the bot read the post as well as the title.
 
