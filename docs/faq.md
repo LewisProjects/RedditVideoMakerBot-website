@@ -32,7 +32,7 @@ TikTok TTS has a maximum character limit, ~2000. If you are getting a crash, it 
 
 ## Preview TTS Voice
 
-Run the `GUI.py` - it will open a browser window with a GUI option to change settings. You can click on the `Settings` button in the header and click on the `Speaker` icon next to each applicable option to preview the voice.
+Run the `python GUI.py`, it will open a browser window with a GUI option to change settings. You can click on the `Settings` button in the header and click on the `Speaker` icon next to each applicable option to preview the voice.
 
 ## NSFW Posts Not Working
 
