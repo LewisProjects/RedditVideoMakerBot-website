@@ -56,7 +56,7 @@ Cause of this error is unknown (possibly due to text leght being longer then lim
 
 ## Index out of range tried all valid filters 
 
-This happens when bot cant find any post that satisfy the codition try changing `min_comment` `max_comment` etc. 
+This happens when bot can't find any post that satisfy the settings. Try changing `min_comment` or `max_comment`. 
 
 ## main.py closing automatically
 
