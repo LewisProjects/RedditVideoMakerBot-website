@@ -5,8 +5,6 @@
 - [Read The Post Not Just The Title](#read-the-post-not-just-the-title)
 - [TikTok Reader Crashing](#tiktok-reader-crashing)
 - [Preview TTS Voice](#preview-tts-voice)
-- [Could Not Concat Numpy.float64](#could-not-concat-numpyfloat64)
-- [Video Length Is Too Long & I Am Too Lazy To Edit It Myself](#video-length-is-too-long-i-am-too-lazy-to-edit-it-myself)
 - [TikTok SessionId Expiring](#tiktok-sessionid-expiring)
 - [Main.py Crashing Due To Video Length](#mainpy-crashing-due-to-video-length)
 - [No matching distribution for torch](#no-matching-distribution-for-torch)
