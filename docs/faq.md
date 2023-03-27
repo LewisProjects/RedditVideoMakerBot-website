@@ -60,5 +60,5 @@ This happens when bot cant find any post that satisfy the codition try changing 
 
 ## main.py closing automatically
 
-This a is generally cause due to directly opening main.py instead open cmd and run `main.py` it is mentioned in tutorial
+This a is generally cause due to directly opening main.py by clicking on it. This is the wrong way of running the bot, please open CMD on Windows and run `main.py`. For further information, please check our documentation.
 
