@@ -1,16 +1,18 @@
 # Frequently Asked Questions
 
-- [Main.py Not Working](#Main.py-is-not-working)
+- [Main.py Not Working](#mainpy-is-not-working)
 - [Easy Way To Edit Config](#easy-way-to-edit-config)
-- [Read PThe Post Not Just The Title](#some-of-my-markdown-elements-arent-highlighted)
+- [Read The Post Not Just The Title](#read-the-post-not-just-the-title)
 - [TikTok Reader Crashing](#tiktok-reader-crashing)
 - [Preview TTS Voice](#preview-tts-voice)
-- [Could Not Concat Numpy.float64](#could-not-concat-numpyfloat64)
-- [Video Length Is Too Long & I Am Too Lazy To Edit It Myself](#video-length-is-too-long--i-am-too-lazy-to-edit-it-myself)
 - [TikTok SessionId Expiring](#tiktok-sessionid-expiring)
 - [Main.py Crashing Due To Video Length](#mainpy-crashing-due-to-video-length)
+- [No matching distribution for torch](#no-matching-distribution-for-torch)
+- [Moivepy error x.mp3 not found](#moivepy-error-xmp3-not-found)
+- [Index out of range tried all valid filters](#index-out-of-range-tried-all-valid-filters)
+- [main.py closing automatically](#mainpy-closing-automatically)
 
-## Mainpy is not working
+## Main.py is not working
 
 The most common occurence is the use of an incorrect Python version, or a missing dependency. Make sure you have Python 3.10 installed, and that you have installed the dependencies using `pip install -r requirements.txt`. If you are still having trouble, feel free to ask for help in the [Discord](https://discord.gg/QaTx2ZDqea)
 
@@ -40,6 +42,23 @@ By default NSFW is disabled. To enable it, you can change the `allow_nsfw` optio
 
 **NOTE:** This needs to be enable on the Reddit account used to create the app.
 
-## Mainpy Crashing Due To Video Length
+## Main.py Crashing Due To Video Length
 
-This is mostlikely due to a corrupt video, remove the files from `assets/backgrounds`
+This is most likely due to a corrupt video, remove the files from `assets/backgrounds`
+
+## No matching distribution for torch 
+
+This is because you are using python 3.11 to solve this issue delete the python `3.11` and install python `3.10`
+
+## Moivepy error x.mp3 not found
+
+Cause of this error is unknown (possibly due to text leght being longer then limit) but you can try to use other post. 
+
+## Index out of range tried all valid filters 
+
+This happens when bot can't find any post that satisfy the settings. Try changing `min_comment` or `max_comment`. 
+
+## main.py closing automatically
+
+This a is generally cause due to directly opening main.py by clicking on it. This is the wrong way of running the bot, please open CMD on Windows and run `main.py`. For further information, please check our documentation.
+
