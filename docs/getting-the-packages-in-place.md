@@ -7,8 +7,6 @@ sidebar_position: 3
 
 ## Windows
 
-### If you downloaded the zip:
-
 Head over to the folder where all the files are stored. Once you are there, you should see a bar at the top showing the directory's path. Double click that:
 
 ![windows-open-cmd](<.gitbook/assets/windows-open-cmd.png>)

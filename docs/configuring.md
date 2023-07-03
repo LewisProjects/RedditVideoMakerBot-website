@@ -1,5 +1,5 @@
 ---
-description: Configuring the reddit API and the bot.
+description: Configuring the Reddit app and the bot.
 sidebar_position: 5
 ---
 
