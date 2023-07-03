@@ -9,5 +9,3 @@ If you want to watch a video in a clean UI, open the cmd and execute this comman
 ![wtv](<.gitbook/assets/image (8).png>)
 
 Open that folder. There should be a video the bot has just made for you with the same name as the Reddit post's title, e.g., `What is something that gets all the hate that it deserves`? (This applies as of update 2.3).
-
-**Please do not delete any clips/videos. The bot automatically deletes them when you run it again and replaces them with the new ones**.
