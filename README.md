@@ -1,16 +1,17 @@
-# Website
+# Reddit Video Maker Bot Documentation
+This is the documentation website of the [Reddit Video Maker Bot](https://github.com/elebumm/RedditVideoMakerBot). You can view the website [here](https://reddit-video-maker-bot.netlify.app/).
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
+## Contributing
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 ### Installation
 
-```
+```shell
 $ yarn
 ```
 
 ### Local Development
 
-```
+```shell
 $ yarn start
 ```
 
@@ -18,24 +19,8 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Build
 
-```
+```shell
 $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

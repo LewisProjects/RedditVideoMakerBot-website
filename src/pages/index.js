@@ -16,9 +16,9 @@ function HomepageHeader() {
 				<div className={styles.buttons}>
 					<Link
 						className="button button--secondary button--lg"
-						to="/docs/intro"
+						to="/docs/prerequisites"
 					>
-						Tutorial - 5min ⏱️
+						Click here to read the tutorial - 5 min ⏱️
 					</Link>
 				</div>
 			</div>
@@ -36,11 +36,20 @@ export default function Home() {
 			<HomepageHeader />
 			<main className={styles.main}>
 				<div className={styles.container}>
-					<h2 className={styles.heading2}>What is this?</h2>
 					<p>
-						The Reddit Video Maker Bot is a bot by Lewis Menelaws. It allows you to create Reddit videos with just one command.
+						Get in touch with Lewis and his server filled with a bunch of lovely developers <a href="https://discord.gg/5uw4eCQf6Z">here</a>.
+						This simple documentation will guide you through the installation process of the bot and its required source files and get you running in no time!
 					</p>
-					<h2 className={styles.heading2}>How does it work?</h2>
+					<h2 className={styles.heading2}>What is this project?</h2>
+					<p>
+						The Reddit Video Maker Bot is a project made by Lewis Menelaws. It allows you to create Reddit videos with just one command.
+					</p>
+					<h2 className={styles.heading2}>Motivation</h2>
+					<p>
+						We have all seen those Text To Speech videos on YouTube and TikTok, right? A Minecraft background, screenshots from a random Reddit thread, and TTS.
+						Well, those low-effort videos can be completely automated now! Using this bot, you can produce a high-quality video (perfect for your TikTok and YouTube) in 5 to 10 minutes with almost no effort.
+					</p>
+					<h2 className={styles.heading2}>What does it do?</h2>
 					<p>
 						The bot uses Reddit API to get a random thread and it's comments
 						from the chosen subreddit. Then it reads the title and the body of
@@ -49,12 +58,7 @@ export default function Home() {
 						Playwright to take the screenshot of the comments and saves them to
 						png file. Then it downloads a random clip from a Minecraft video.
 						And finally, it creates a video from the audio and the screenshot
-						and saves it to a file using a package called Moviepy.
-					</p>
-					<h2 className={styles.heading2}>How do I use it?</h2>
-					<p>
-						You can learn how to use the bot in {' '}
-						<Link to="/docs/intro">Tutorial</Link>.
+						and compiles it to a video using FFmpeg.
 					</p>
 					<h2 className={styles.heading2}>Authors</h2>
 					<div className={styles.author}>
@@ -64,24 +68,25 @@ export default function Home() {
 							<ul>
 								<li>Lewis Menelaws</li>
 							</ul>
-							<h4>Maintainer/developer</h4>
+							<h4>Maintainers/developers</h4>
 							<ul>
-								<li>Jason</li>
-								<li>Simon</li>
-								<li>Callum Leslie</li>
-								<li>Verq</li>
-								<li>Luka Hietala</li>
-								<li>Freebiell</li>
+								<li>Jason <a href="https://github.com/JasonLovesDoggo">@JasonLovesDoggo</a></li>
+								<li>Simon <a href="https://github.com/OpenSourceSimon">@OpenSourceSimon</a></li>
+								<li>Callum Leslie <a href="https://github.com/callumio">@callumio</a></li>
+								<li>Verq <a href="https://github.com/CordlessCoder">@CordlessCoder</a></li>
+								<li>Luka Hietala <a href="https://github.com/LukaHietala">@LukaHietala</a></li>
+								<li>Freebiell <a href="https://github.com/FreebieII">@FreebieII</a></li>
 							</ul>
 						</div>
 						<div>
 							<h3 className={styles.heading3}>Documentation</h3>
 							<h4 className={styles.heading4}>Site</h4>
 							<ul>
-								<li>Luka Hietala (Owner)</li>
+								<li>Simon (Owner and rewriter)</li>
 							</ul>
 							<h4 className={styles.heading4}>Tutorial</h4>
 							<ul>
+								<li>OpenSourceSimon</li>
 								<li>HarryDaDev</li>
 								<li>Luka Hietala</li>
 								<li>micziz</li>

@@ -10,41 +10,9 @@ description: >-
 <source src="https://user-images.githubusercontent.com/65854503/183877050-8cfe9a1e-68d8-4528-b4eb-b0c60c072537.mp4"  type="video/mp4"></source>
 </video>
 
-## Text-to-Speech
+## TikTok voices
 
-### DISNEY VOICES
-
-* Ghost Face, en\_us\_ghostface
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568252-c2c3b090-c97f-4d72-acdd-1b496c1e77a7.mp4" type="audio/mpeg"></source>
-</audio>
-
-* Chewbacca, en\_us\_chewbacca
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568373-14786d5f-0320-4a43-b8e5-581d1e5d8f31.mp4" type="audio/mpeg"></source>
-</audio>
-
-* C3PO, en\_us\_c3po
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568419-b7dc87eb-5806-4e43-9cb9-31f625f425e8.mp4" type="audio/mpeg"></source>
-</audio>
-
-* Stitch, en\_us\_stitch
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568450-b4335c0f-236e-4411-9281-42b9f961343f.mp4" type="audio/mpeg"></source>
-</audio>
-
-* Stormtrooper, en\_us\_stormtrooper
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568490-6738262f-c2f0-432c-946d-970153992926.mp4" type="audio/mpeg"></source>
-</audio>
-
-* Rocket, en\_us\_rocket
-<audio controls>
-  <source src="https://user-images.githubusercontent.com/61630074/178568515-e95ddf4e-48e6-4e9b-b199-43c628fc713c.mp4" type="audio/mpeg"></source>
-</audio>
-
-### ENGLISH VOICES
+### English
 
 * English AU, en\_au\_001 - Female
 <audio controls>
@@ -91,7 +59,7 @@ description: >-
   <source src="https://user-images.githubusercontent.com/61630074/178568869-5fb5733c-9755-4a6d-8469-8250c9f077ff.mp4" type="audio/mpeg"></source>
 </audio>
 
-### EUROPEAN VOICES
+### European languages
 
 * French, fr\_001 - Male 1
 <audio controls>
@@ -143,7 +111,7 @@ description: >-
   <source src="https://user-images.githubusercontent.com/61630074/178576422-6b52838e-3b71-419b-b96c-18bd246ad94d.mp4" type="audio/mpeg"></source>
 </audio>
 
-### ASIAN VOICES
+### Asian languages
 
 * Indonesian, id\_001 - Female
 <audio controls>
@@ -183,4 +151,36 @@ description: >-
 * Korean, kr\_004 - Male 2
 <audio controls>
   <source src="https://user-images.githubusercontent.com/61630074/178576631-ca896b76-fe5e-4496-a0fa-33d35e106b86.mp4" type="audio/mpeg"></source>
+</audio>
+
+### Disney
+
+* Ghost Face, en\_us\_ghostface
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568252-c2c3b090-c97f-4d72-acdd-1b496c1e77a7.mp4" type="audio/mpeg"></source>
+</audio>
+
+* Chewbacca, en\_us\_chewbacca
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568373-14786d5f-0320-4a43-b8e5-581d1e5d8f31.mp4" type="audio/mpeg"></source>
+</audio>
+
+* C3PO, en\_us\_c3po
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568419-b7dc87eb-5806-4e43-9cb9-31f625f425e8.mp4" type="audio/mpeg"></source>
+</audio>
+
+* Stitch, en\_us\_stitch
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568450-b4335c0f-236e-4411-9281-42b9f961343f.mp4" type="audio/mpeg"></source>
+</audio>
+
+* Stormtrooper, en\_us\_stormtrooper
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568490-6738262f-c2f0-432c-946d-970153992926.mp4" type="audio/mpeg"></source>
+</audio>
+
+* Rocket, en\_us\_rocket
+<audio controls>
+  <source src="https://user-images.githubusercontent.com/61630074/178568515-e95ddf4e-48e6-4e9b-b199-43c628fc713c.mp4" type="audio/mpeg"></source>
 </audio>
