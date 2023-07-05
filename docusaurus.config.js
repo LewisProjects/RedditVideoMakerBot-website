@@ -14,14 +14,9 @@ const config = {
 	onBrokenMarkdownLinks: 'warn',
 	favicon: ' ',
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'Lewis Menelaws', // Usually your GitHub org/user name.
-	projectName: 'RedditVideoMakerBot', // Usually your repo name.
+	organizationName: 'LewisProjects', // Usually your GitHub org/user name.
+	projectName: 'RedditVideoMakerBot-website', // Usually your repo name.
 
-	// Even if you don't use internalization, you can use this field to set useful
-	// metadata like html lang. For example, if your site is Chinese, you may want
-	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: 'en',
 		locales: ['en'],
@@ -37,7 +32,7 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/LukaHietala/reddit-bot-docs-website/tree/master/',
+						'https://github.com/LewisProjects/reddit-bot-docs-website/tree/master/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -54,7 +49,7 @@ const config = {
 				items: [
 					{
 						type: 'doc',
-						docId: 'intro',
+						docId: 'prerequisites',
 						position: 'left',
 						label: 'Tutorial',
 					},
@@ -73,12 +68,12 @@ const config = {
 			footer: {
 				style: 'dark',
 				links: [
-					{
+				{
 						title: 'Docs',
 						items: [
 							{
 								label: 'Tutorial',
-								to: '/docs/intro',
+								to: '/docs/prerequisites',
 							},
 						],
 					},
@@ -92,7 +87,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} TMRRW, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()}`,
 			},
 			prism: {
 				theme: lightCodeTheme,
