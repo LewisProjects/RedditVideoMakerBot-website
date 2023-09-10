@@ -39,18 +39,10 @@ This happens when bot can't find any post that satisfy the settings. Lower the `
 
 ## Package not found
 
-You did not install the pip packages
-
-Install them by running
+You forgot to install the packages, run this command and it'll be installed:
 
 ```shell
 pip install -r requirements.txt
-```
-
-If you have a problem with a specific package (e.g., rich), install it by itself.
-
-```shell
-pip3 install rich
 ```
 
 ## Other problems
