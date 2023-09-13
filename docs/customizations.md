@@ -14,7 +14,7 @@ Here's how to access and understand this file:
 Here's an example configuration file with comments added for better understanding:
 
 <details>
-<Summary>Configuration file</Summary>
+<summary>Configuration file</summary>
 
 ```yaml
 [ai]
@@ -132,9 +132,8 @@ Feel free to customize these settings as needed to achieve the desired results f
 Now, let's take a step into more advanced customizations by adding new background videos to make your videos stand out. Here's how to do it:
 
 <details>
-<Summary>Adding New Background Videos</Summary>
+<summary>Adding New Background Videos</summary>
   
-## Adding New Background Videos
 
 ##### **NOTE: We aim to develop a user-friendly graphical interface (currently a work in progress) in the future, eliminating the need for this manual configuration. Once it's operational, this section will be removed.**
 
@@ -222,11 +221,10 @@ Now, let's take a step into more advanced customizations by adding new backgroun
 These steps will enable your bot to use the new background video you've added. Remember to follow the correct syntax and ensure that your video is copyright-free for a smooth video-making experience.
 </details>
 
-<Details>
+<details>
 	
-<Summary>Creating the single text caption video with reddit card intro.</Summary>
+<summary>Creating the single text caption video with reddit card intro.</summary>
 
-## Creating a Video with a Reddit Card Introduction
 
 **Please note: This process requires some manual editing, as it can't be fully automated by the bot.**
 
@@ -278,19 +276,19 @@ To create a video with a Reddit card introduction while removing the text from t
 
 Once your bot is configured to produce a background image with TTS voice, watch this short video tutorial to learn how to add the introduction card and word-by-word captions:
 
-<video>  
+<video height="600px" controls>  
 <source src="https://github.com/theovit/RedditVideoMakerBot-website/raw/Customizations/docs/samples/videos/CapCutCaptions%26Intro.mp4"  type="video/mp4"></source>
 </video>
 
 This should be the result of all your hard work.
 
-<video>  
+<video height="600px" controls>  
 <source src="https://github.com/theovit/RedditVideoMakerBot-website/raw/Customizations/docs/samples/videos/CapCutCaptions%26Intro-Results.mp4"  type="video/mp4"></source>
 </video>
 
 
 
 
-</Details>
+</details>
 
 **Note: Any changes to the config file that don't adhere to the proper criteria may prevent the bot from running correctly.**
