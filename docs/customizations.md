@@ -222,4 +222,75 @@ Now, let's take a step into more advanced customizations by adding new backgroun
 These steps will enable your bot to use the new background video you've added. Remember to follow the correct syntax and ensure that your video is copyright-free for a smooth video-making experience.
 </details>
 
+<Details>
+	
+<Summary>Creating the single text caption video with reddit card intro.</Summary>
+
+## Creating a Video with a Reddit Card Introduction
+
+**Please note: This process requires some manual editing, as it can't be fully automated by the bot.**
+
+To create a video with a Reddit card introduction while removing the text from the Reddit post, follow these steps:
+
+1. **Configure the Bot for Background and TTS Audio Only**
+
+   Open your `config.toml` file and locate the `[settings]` section. Make the following changes:
+
+   ```toml
+   [settings]
+   theme = "transparent"
+   opacity = 0.0
+   ```
+
+   Optionally, you can also disable the background audio if needed.
+      ```
+   # Sets the volume of the background audio. If you don't want background audio, set it to 0.
+   background_audio_volume = 0 # The volume HAS to be between 0 and 1
+   ```
+
+2. **Adjust Image Generator Settings**
+
+   Open the `/utils/imagenarator.py` file and scroll down until you find this section of code:
+   
+   ```python
+   if transparent:
+       font = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 100)
+       tfont = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 100)
+   else:
+       tfont = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 100)  # for title
+       font = ImageFont.truetype(os.path.join("fonts", "Roboto-Regular.ttf"), 100)
+   size = (1920, 1080)
+   ```
+
+   Change all the `100` values to `0` like this:
+
+   ```python
+   if transparent:
+       font = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 0)
+       tfont = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 0)
+   else:
+       tfont = ImageFont.truetype(os.path.join("fonts", "Roboto-Bold.ttf"), 0)  # for title
+       font = ImageFont.truetype(os.path.join("fonts", "Roboto-Regular.ttf"), 0)
+   size = (1920, 1080)
+   ```
+
+3. **Adding the Introduction Card and Captions**
+
+Once your bot is configured to produce a background image with TTS voice, watch this short video tutorial to learn how to add the introduction card and word-by-word captions:
+
+<video>  
+<source src="https://github.com/theovit/RedditVideoMakerBot-website/raw/Customizations/docs/samples/videos/CapCutCaptions%26Intro.mp4"  type="video/mp4"></source>
+</video>
+
+This should be the result of all your hard work.
+
+<video>  
+<source src="https://github.com/theovit/RedditVideoMakerBot-website/raw/Customizations/docs/samples/videos/CapCutCaptions%26Intro-Results.mp4"  type="video/mp4"></source>
+</video>
+
+
+
+
+</Details>
+
 **Note: Any changes to the config file that don't adhere to the proper criteria may prevent the bot from running correctly.**
