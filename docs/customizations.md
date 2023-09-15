@@ -156,44 +156,46 @@ Now, let's take a step into more advanced customizations by adding new backgroun
 
 5. **After** the last entry, add a comma after the last `]` then hit "Enter" and "Home" on your keyboard to position the cursor at the beginning of the new line.
 
+To format the provided text properly for a GitHub Markdown file, you can use the following code blocks and markdown formatting:
+
+
 6. **Paste** the entry you copied in the previous step (`Ctrl + V`) on the new line.
 
-    ```json
+	```json
 	"steep": [
-        "https://www.youtube.com/watch?v=EnGiQrWBrko",
-        "steep.mp4",
-        "joel",
-        "center"
-    ],
-    "steep": [
-        "https://www.youtube.com/watch?v=EnGiQrWBrko",
-        "steep.mp4",
-        "joel",
-        "center"
-    ]
-}
-    ```
+	    "https://www.youtube.com/watch?v=EnGiQrWBrko",
+	    "steep.mp4",
+	    "joel",
+	    "center"
+	],
+	"steep": [
+	    "https://www.youtube.com/watch?v=EnGiQrWBrko",
+	    "steep.mp4",
+	    "joel",
+	    "center"
+	]
+	```
 
 7. **Modify** the last entry to match your new video. Here's an example:
 
-    ```json
+	```json
 	"steep": [
-        "https://www.youtube.com/watch?v=EnGiQrWBrko",
-        "steep.mp4",
-        "joel",
-        "center"
-    ],
-    "nyc-drone": [
-        "https://www.youtube.com/watch?v=CouF-tNHV3g",
-        "nyc_drone.mp4",
-        "the Dronalist",
-        "center"
-    ] 
-}
-    ```
+	    "https://www.youtube.com/watch?v=EnGiQrWBrko",
+	    "steep.mp4",
+	    "joel",
+	    "center"
+	],
+	"nyc-drone": [
+	    "https://www.youtube.com/watch?v=CouF-tNHV3g",
+	    "nyc_drone.mp4",
+	    "the Dronalist",
+	    "center"
+	]
+	```
 
-   ***Ensure that everything lines up correctly.***
+***Ensure that everything lines up correctly.***
 
+This formatting should make it appear correctly in a GitHub Markdown file, with the JSON code blocks properly indented and displayed.
 8. **Save** the `background_videos.json` file.
 
 9. **Open `\utils\.config.templat.toml`**: If you can't find this file, you may need to enable "Show hidden files, folders, and drives" in your folder options.
