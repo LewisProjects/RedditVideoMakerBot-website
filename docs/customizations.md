@@ -195,7 +195,6 @@ To format the provided text properly for a GitHub Markdown file, you can use the
 
 ***Ensure that everything lines up correctly.***
 
-This formatting should make it appear correctly in a GitHub Markdown file, with the JSON code blocks properly indented and displayed.
 8. **Save** the `background_videos.json` file.
 
 9. **Open `\utils\.config.templat.toml`**: If you can't find this file, you may need to enable "Show hidden files, folders, and drives" in your folder options.
