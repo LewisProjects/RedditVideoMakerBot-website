@@ -21,7 +21,13 @@ const config = {
 		defaultLocale: 'en',
 		locales: ['en'],
 	},
-
+	scripts: [
+    		{
+      			defer: true,
+      			"data-domain": "reddit-video-maker-bot.netlify.app",
+      			src: "https://analytics.opensourcesimon.dev/js/script.js",
+    		}, // Analytics
+  	],
 	presets: [
 		[
 			'classic',
