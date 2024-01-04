@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 
 import styles from './index.module.css';
 
@@ -33,6 +34,9 @@ export default function Home() {
 			title={`${siteConfig.title}`}
 			description="A bot that makes videos from Reddit posts."
 		>
+		<Head
+				<meta name="google-site-verification" content="yqvfJBHBh4gcfzB8Ov6n15yj3heY-tBv9c-MzFsYM0w" />
+		</Head>
 			<HomepageHeader />
 			<main className={styles.main}>
 				<div className={styles.container}>
