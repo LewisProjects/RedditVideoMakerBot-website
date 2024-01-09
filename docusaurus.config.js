@@ -13,7 +13,6 @@ const config = {
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: ' ',
-
 	organizationName: 'LewisProjects', // Usually your GitHub org/user name.
 	projectName: 'RedditVideoMakerBot-website', // Usually your repo name.
 
@@ -27,6 +26,15 @@ const config = {
       			"data-domain": "reddit-video-maker-bot.netlify.app",
       			src: "https://analytics.opensourcesimon.dev/js/script.js",
     		}, // Analytics
+  	],
+	headTags: [
+    		{
+      			tagName: 'meta',
+      			attributes: {
+        			name: 'google-site-verification',
+        			content: 'yqvfJBHBh4gcfzB8Ov6n15yj3heY-tBv9c-MzFsYM0w',
+      			},
+    		},
   	],
 	presets: [
 		[
