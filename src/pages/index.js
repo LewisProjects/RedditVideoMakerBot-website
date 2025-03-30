@@ -7,6 +7,7 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
 function HomepageHeader() {
+	alert("Currently version is unstable, fixes are being added to it.")
 	const { siteConfig } = useDocusaurusContext();
 	return (
 		<header className={clsx('hero hero--primary', styles.heroBanner)}>

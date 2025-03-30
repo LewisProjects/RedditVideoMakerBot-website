@@ -45,6 +45,22 @@ You forgot to install the packages, run this command and it'll be installed:
 pip install -r requirements.txt
 ```
 
+
+## Waiting for locator("[data-test-id="post-content"]") (or screenshot issue)
+
+Fixes are being added to it. For now, do this,
+screenshot_downlaoder(line 180) replace it with this: 
+```shell
+location = page.locator(f'shreddit-post[id="t3_{reddit_id}"]').bounding_box()
+```
+
+## Probably the AID value is not correct: 
+The Tiktok TTS is currently broken, please change it to another TTS in config.toml file
+
+## To increase/decrease the video length
+You can play with the number of min_comments in config.tome. More comments will take more time as compared to less comments.
+
+
 ## Other problems
 
 If you still face issues, try reinstalling Python and the bot and perform everything mentioned here again. 
