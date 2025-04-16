@@ -1,5 +1,5 @@
 # Reddit Video Maker Bot Documentation
-This is the documentation website of the [Reddit Video Maker Bot](https://github.com/elebumm/RedditVideoMakerBot). You can view the website [here](https://reddit-video-maker-bot.netlify.app/).
+This is the documentation website of the [Reddit Video Maker Bot](https://github.com/elebumm/RedditVideoMakerBot). You can view the website [here](https://reddit-video-maker-bot.netlify.app/). This site is powered by [Netlify](http://netlify.com/)
 
 ## Contributing
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
