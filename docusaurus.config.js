@@ -21,11 +21,6 @@ const config = {
 		locales: ['en'],
 	},
 	scripts: [
-    		{
-      			defer: true,
-      			"data-domain": "reddit-video-maker-bot.netlify.app",
-      			src: "https://analytics.opensourcesimon.dev/js/script.js",
-    		}, // Analytics
 		{
      			src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3964010834866201',
       			async: true,
